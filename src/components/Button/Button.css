@@ -1,0 +1,12 @@
+.buttons-news {
+  background-color: var(--tertiary-color);
+  color: var(--secondary-color);
+  border-radius: 10px;
+  padding: var(--padding-xs) var(--padding-m);
+  cursor: pointer;
+}
+
+.buttons-news:active {
+  transform: scale(0.95);
+  box-shadow: 1px 3px 3px var(--demytransp-color);
+}

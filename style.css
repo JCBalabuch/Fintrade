@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  user-select: none;
+}
+
+:root {
+  font-family: 'Nunito', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* COLOR */
+  --main-color: #1e233f;
+  --secondary-color: #f0f0f0;
+  --tertiary-color: #242424;
+  --cards-color: #1111119f;
+  --positive-color: #adff2f;
+  --negative-color: #ff0000;
+  --demytransp-color: #ffffffde;
+  --offset: 0px;
+  --move-initial: calc(-25% + var(var(--offset)));
+  --move-final: calc(-50% + var(var(--offset)));
+
+  /* GAP */
+  --gap-ss: 5px;
+  --gap-s: 10px;
+  --gap-m: 20px;
+  --gap-l: 25px;
+
+  /* PADDING */
+  --padding-xxs: 3px;
+  --padding-xs: 5px;
+  --padding-s: 10px;
+  --padding-m: 15px;
+  --padding-l: 20px;
+  --padding-xl: 30px;
+
+  color: var(--main-color);
+  background-color: var(--secondary-color);
+}

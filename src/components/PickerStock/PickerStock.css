@@ -1,0 +1,18 @@
+#stockPicker {
+  margin-left: 10px;
+  width: 250px;
+}
+
+#stockPicker > label {
+  font-size: 0.8rem;
+  margin-left: 3px;
+}
+
+#stockPicker > select {
+  background-color: var(--tertiary-color);
+  color: var(--secondary-color);
+  border-radius: 5px;
+  padding: var(--padding-xxs) var(--padding-xs);
+  box-shadow: 0.8px 1px 1.2px var(--demytransp-color);
+  cursor: pointer;
+}

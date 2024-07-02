@@ -1,0 +1,35 @@
+header {
+  height: 25svh;
+  width: 100svw;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--main-color);
+  color: var(--demytransp-color);
+}
+
+.marquee-container {
+  height: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--gap-s);
+}
+
+.logo {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo > img {
+  width: 40px;
+  height: 40px;
+}
+
+.logo > h1 {
+  font-size: 1rem;
+  min-height: 22px;
+}
