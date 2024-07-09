@@ -19,51 +19,49 @@ Fintrade is a JavaScript Vanilla application that utilizes both WebSockets and F
 
 ## Prerequisites
 
-    To run Fintrade, you'll need the following:
+To run Fintrade, you'll need the following:
 
-    A web browser (Chrome, Firefox, Edge, etc.)
-    Basic understanding of HTML, CSS, and JavaScript
-    A Finnhub API account (https://finnhub.io/login)
+A web browser (Chrome, Firefox, Edge, etc.)
+Basic understanding of HTML, CSS, JavaScript and Websocket
+A Finnhub API account (https://finnhub.io/login)
 
 <a name='installation'></a>
 
 ### Installation
 
-    Clone the Repository:
+Clone the Repository:
 
-    Clone the Fintrade repository from GitHub:
+Clone the Fintrade repository from GitHub:
 
-        Bash
-        git clone https://github.com/JCBalabuch/Fintrade
-        Usa el código con precaución.
-        content_copy
+```Bash
+git clone https://github.com/JCBalabuch/Fintrade
+```
 
 ### Install Dependencies:
 
-    Navigate into the cloned directory and install the required dependencies:
+Navigate into the cloned directory and install the required dependencies:
 
-    Bash
+```Bash
     npm install
-    Usa el código con precaución.
-    content_copy
-    Usage
-    Obtain Finnhub API Key:
+```
 
-    Create a Finnhub API account and obtain your API key.
+### Usage
+
+Obtain Finnhub API Key: Create a Finnhub API account and obtain your API key.
 
 ### Set API Key:
 
-    Open one .env file and set VITE_API_KEY placeholder with your actual API key.
+Open one .env file and set VITE_API_KEY placeholder with your actual API key and include the API url as VITE_URL_FETCH=https://finnhub.io/api/v1/.
 
 ## Start the Application:
 
-    Run the following command to start the Fintrade application:
+Run the following command to start the Fintrade application:
 
-    Bash
+```Bash
     npm start
+```
 
-    content_copy
-    This will launch a web server and open the application in your default browser.
+This will launch a web server and open the application in your default browser.
 
 <a name='usage'></a>
 
@@ -73,13 +71,15 @@ Fintrade is a JavaScript Vanilla application that utilizes both WebSockets and F
 
 ## Features
 
-    Real-time Stock Price Updates: Receive live stock price updates via WebSockets.
-    Real-time Finnhub News: Receive live news updates via fetch.
-    User-friendly Interface: Easily monitor stock prices and trends with a clear and intuitive interface.
-    Customizable Stock Selection: Choose specific stocks to track and receive updates for.
+Real-time Stock Price Updates: Receive live stock price updates via WebSockets.
+Real-time Finnhub News: Receive live news updates via fetch.
+User-friendly Interface: Easily monitor stock prices and trends with a clear and intuitive interface.
+Customizable Stock Selection: Choose specific stocks to track and receive updates for.
+
+![alt text](image.png)
 
 <a name='contact'></a>
 
 ## Contact
 
-For any questions, suggestions, or bug reports, please feel free to contact me at [Jeniffer Balabuch -mail](balabuchj@gmail.com) or in my linkedin [Jeniffer Balabuch - linkedin] (https://www.linkedin.com/in/jenifferbalabuch/)
+For any questions, suggestions, or bug reports, please feel free to contact me at [Jeniffer Balabuch -mail](balabuchj@gmail.com) or in my linkedin [Jeniffer Balabuch - linkedin](https://www.linkedin.com/in/jenifferbalabuch/)
