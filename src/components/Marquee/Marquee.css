@@ -29,7 +29,7 @@
 }
 
 .marquee-slide {
-  width: 100svw;
+  width: calc(100% -2 * var(--gap-l));
   height: 12svh;
   display: flex;
   justify-content: space-evenly;
@@ -42,6 +42,10 @@
 #marquee:hover .marquee-slide {
   animation-play-state: paused;
 }
+
+/* #marquee > .marquee-slide:nth-child(2) {
+  margin-left: 100%;
+} */
 
 .card-stock {
   width: 140px;

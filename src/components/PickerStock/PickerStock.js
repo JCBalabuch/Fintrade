@@ -19,7 +19,9 @@ const handleStockSelection = (e) => {
   symbols = storedStocks;
   renderCardElements(symbols);
   connectToWebSocket(symbols);
-  document.getElementById('stock-select').value = '---';
+
+  // Reset select
+  // document.getElementById('stock-select').value = '---';
 };
 
 // Create Select Stock Data
