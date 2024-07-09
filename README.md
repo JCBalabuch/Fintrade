@@ -5,9 +5,8 @@ Table of Contents
 1. [Overview](#overview)
 2. [Prerequisites](#prerrequisites)
 3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Features](#features)
-6. [Contact](#contact)
+4. [Features](#features)
+5. [Contact](#contact)
 
 <a name='overview'></a>
 
@@ -64,10 +63,6 @@ Run the following command to start the Fintrade application:
 This will launch a web server and open the application in your default browser.
 
 <a name='usage'></a>
-
-## Usage
-
-<a name='features'></a>
 
 ## Features
 
