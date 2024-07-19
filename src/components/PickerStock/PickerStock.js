@@ -11,7 +11,10 @@ const handleStockSelection = (e) => {
 
   let storedStocks = JSON.parse(localStorage.getItem('symbols'));
 
-  if (!storedStocks.includes(selectedStockSymbol)) {
+  if (
+    !storedStocks.includes(selectedStockSymbol) &&
+    selectedStockSymbol !== '---'
+  ) {
     storedStocks.push(selectedStockSymbol);
     localStorage.setItem('symbols', JSON.stringify(storedStocks));
   }

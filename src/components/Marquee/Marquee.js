@@ -1,10 +1,11 @@
 import './Marquee.css';
 import { connectWebSocket } from '../../utils/websocket';
+import { removeStockSelection } from '../../utils/removeCards';
 
 export const cardStocks = {};
 
 // Take symbols from localStorage
-let symbols = JSON.parse(localStorage.getItem('symbols')) || [
+export let symbols = JSON.parse(localStorage.getItem('symbols')) || [
   'AAPL',
   'BINANCE:BTCUSDT',
   'IC MARKETS:1',
@@ -61,21 +62,6 @@ export const renderCardElements = (symbolList) => {
   // Clone marqueeSlide
   const cloneMarqueeSlide = marqueeSlide.cloneNode(true);
   marquee.append(cloneMarqueeSlide);
-};
-
-// Remove cards
-const removeStockSelection = (symbol) => {
-  let storedStocks = JSON.parse(localStorage.getItem('symbols'));
-
-  const stockIndex = storedStocks.indexOf(symbol);
-  if (stockIndex !== -1) {
-    storedStocks.splice(stockIndex, 1);
-    localStorage.setItem('symbols', JSON.stringify(storedStocks));
-  }
-
-  symbols = storedStocks;
-  renderCardElements(symbols);
-  connectToWebSocket(symbols);
 };
 
 export const getCardStockElements = (symbol) => {

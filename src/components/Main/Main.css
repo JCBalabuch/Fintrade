@@ -44,7 +44,20 @@ section {
 }
 
 #news-container::-webkit-scrollbar {
-  display: none;
+  width: 5px;
+  height: 10px;
+}
+
+#news-container::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  width: 5px;
+  background: var(--main-color);
+}
+
+#news-container::-webkit-scrollbar-track {
+  height: 10px;
+  background: var(--demytransparent-color);
+  border-radius: 5px;
 }
 
 .notes {

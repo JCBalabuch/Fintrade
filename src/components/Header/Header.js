@@ -19,8 +19,6 @@ export const Header = () => {
 
   document.querySelector('#app').appendChild(headerElement);
 
-  document.addEventListener('DOMContentLoaded', () => {
-    pickerStockData();
-    Marquee();
-  });
+  pickerStockData();
+  Marquee();
 };
